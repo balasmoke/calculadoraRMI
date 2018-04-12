@@ -12,7 +12,6 @@ public class calculadoraServidor {
             calculadora m = new calculadoraImpl();
             Naming.rebind(calculadoraImpl.geturi(), m);
             
-            
         } catch (Exception e) {
             System.out.println("Erro "+ e);
         }
