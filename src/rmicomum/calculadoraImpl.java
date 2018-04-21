@@ -22,7 +22,7 @@ public class calculadoraImpl extends UnicastRemoteObject implements calculadora{
     }
         
     public int soma(int a, int b) throws RemoteException {
-        return    a+b;
+        return a+b;
     }
     
     public int subtracao(int a, int b) throws RemoteException {
